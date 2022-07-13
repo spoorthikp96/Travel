@@ -31,7 +31,7 @@ body {
 }
 
 .button1 {
-   font-family: poppins;
+   font-family: 'poppins';
    border: none;
    border-radius: 52px;
    width: 211px;
@@ -60,7 +60,7 @@ i.fa-bookmark {
 }
 
 .headline {
-   font-family: playfair display;
+   font-family: 'playfair display';
    font-weight: 700;
    font-size: 64px;
    line-height: 85px;
@@ -121,7 +121,7 @@ select {
    height: 40px;
    font-size: 16px;
    border: none;
-   font-family: poppins;
+   font-family: 'poppins';
    font-weight: 600;
 }
 
@@ -151,14 +151,15 @@ select {
 }
 
 .about span, .accommodation, .testimonial{
+   text-transform: uppercase; 
    font-size: 16px;
    font-weight: 600;
-   color: black;
-   text-transform: uppercase;   
+   color:var(--text-color);
+     
 }
 
 .about h2 {
-   font-family: playfair display;
+   font-family: 'playfair display';
    font-weight: 700;
    font-size: 46px;
    line-height: 64px;
@@ -189,7 +190,7 @@ select {
 
 .rooms-suites h2 {
    color: black;
-   font-family: playfair display;
+   font-family: 'playfair display';
    font-weight: 700;
    font-size: 48px;
    line-height: 64px;
@@ -220,7 +221,6 @@ select {
    border-radius: 12px;
    margin-top: 20px;
    margin-bottom: 20px;
-   /* filter: brightness(60%); */
    
 }
 
@@ -241,7 +241,7 @@ select {
 }
 
 .fontstyle {
-   font-family: playfair display;
+   font-family: 'playfair display';
    font-weight: 700;
    font-size: 24px;
 }
@@ -253,16 +253,15 @@ select {
 small {
    font-size: 10px;
 }
-/* accommodation section CSS starts */
 
-/* Testimonials section CSS starts */
+/* Testimonials */
 .testimonials {
    background-color: #F2F2F2;
 }
 
 .testimonials h2 {
    color: black;
-   font-family: playfair display;
+   font-family: 'playfair display';
    font-weight: 700;
    font-size: 48px;
    line-height: 64px;
@@ -289,7 +288,7 @@ small {
 }
 
 .feedback h6 {
-   font-family: playfair display;
+   font-family: 'playfair display';
    font-size: 18px;
    color: #333333;
    font-weight: 700px;
@@ -297,7 +296,7 @@ small {
 
 .feedback p {
    padding-top: 20px;
-   font-family: playfair display;
+   font-family: 'playfair display';
    font-size: 16px;
    color: #4F4F4F;
    font-weight: 400;
@@ -336,7 +335,7 @@ small {
 }
 
 footer p {
-   font-family: playfair display;
+   font-family: 'playfair display';
    font-size: 16px;
    font-weight: 400;
    color: #222222;
